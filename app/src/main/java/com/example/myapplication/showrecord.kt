@@ -42,7 +42,7 @@ fun rowData(img: Int, data: String) {
 
 @Composable
 fun previewRowData() {
-
+// https://youtu.be/ubjbGZlalGk?si=MYQeMXrw3FLseXaM
     LazyColumn(modifier = Modifier.fillMaxSize()){
         items(myLanguage()){ item ->
             rowData(img = item.image, data = item.text)
